@@ -1,11 +1,9 @@
 import React from 'react';
-import fontawesome from '@fortawesome/fontawesome';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import LinkedIn from '@fortawesome/fontawesome-free-brands/faLinkedinIn';
 import Medium from '@fortawesome/fontawesome-free-brands/faMediumM';
 import Github from '@fortawesome/fontawesome-free-brands/faGithub';
 import Facebook from '@fortawesome/fontawesome-free-brands/faFacebookF';
-import StackOverflow from '@fortawesome/fontawesome-free-brands/faStackOverflow';
 import Envelope from '@fortawesome/fontawesome-free-regular/faEnvelope';
 import style from '../style/contact.less';
 
