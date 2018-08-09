@@ -32,6 +32,10 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.7",
+    "@fortawesome/fontawesome-free-brands": "^5.0.12",
+    "@fortawesome/fontawesome-free-regular": "^5.0.12",
+    "@fortawesome/react-fontawesome": "0.0.19",
     "gulp": "^3.9.1",
     "jquery": "^3.3.1",
     "react": "^16.3.2",
