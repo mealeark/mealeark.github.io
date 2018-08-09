@@ -1,0 +1,44 @@
+@pine: #5B7065;
+@sand-green: #B6B9B6;
+@charcoal: #231F1B;
+
+.landing {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+    "header header header"
+    "header header header";
+  grid-gap: 0.5%;
+  height: 98vh;
+}
+
+.one {
+  grid-area: header;
+  background-image: url('https://s3.us-east-2.amazonaws.com/www.evalinebai.com/media/me.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.two {
+  background-image: url('https://s3.us-east-2.amazonaws.com/www.evalinebai.com/media/comp.jpg');
+  background-size: cover;
+  background-position:center center;
+}
+
+.three {
+  background-image: url('https://s3.us-east-2.amazonaws.com/www.evalinebai.com/media/chicago.jpg');
+  background-size: cover;
+  background-position:center center;
+}
+
+.four {
+  border: solid 10px @sand-green;
+  padding-right: 5%;
+  padding-top: 60%;
+  text-align: right;
+  
+  h2 {
+    color: @pine;
+  }
+}

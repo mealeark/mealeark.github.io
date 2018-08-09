@@ -1,0 +1,113 @@
+@stone: #C0C0C0;
+@rose: #e66767;
+@pine: #5B7065;
+@charcoal: #231F1B;
+
+.portfolio {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  overflow-y: scroll;
+
+  hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid @stone;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  a {
+    color: @pine;
+  }
+
+  a:hover {
+    color: @stone;
+  }
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1%;
+  height: 30vh;
+
+  div {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-left: solid 1px @stone;
+    border-right: solid 1px @stone;
+  }
+}
+
+@media (max-width: 768px) {
+  .images {
+    grid-template-columns: 1fr;
+    height: 90vh;
+
+    div {
+      border-left: none;
+      border-right: none;
+      border-top: solid 1px @stone;
+      border-bottom: solid 1px @stone;
+      border-width: 60%;
+    }
+  }
+}
+
+.one {
+  background-image: url("https://s3.us-east-2.amazonaws.com/www.evalinebai.com/media/bb1.png");
+}
+
+.two {
+  background-image: url("https://s3.us-east-2.amazonaws.com/www.evalinebai.com/media/bb2.png");
+}
+
+.three {
+  background-image: url("https://s3.us-east-2.amazonaws.com/www.evalinebai.com/media/bb3.png");
+}
+
+.four {
+  background-image: url("https://s3.us-east-2.amazonaws.com/www.evalinebai.com/media/seansite1.png");
+}
+
+.five {
+  background-image: url("https://s3.us-east-2.amazonaws.com/www.evalinebai.com/media/seansite2.png");
+}
+
+.six {
+  background-image: url("https://s3.us-east-2.amazonaws.com/www.evalinebai.com/media/seansite3.png");
+}
+
+.seven {
+  background-image: url("https://s3.us-east-2.amazonaws.com/www.evalinebai.com/media/cb1.png");
+}
+
+.eight {
+  background-image: url("https://s3.us-east-2.amazonaws.com/www.evalinebai.com/media/cb2.png");
+}
+
+.nine {
+  background-image: url("https://s3.us-east-2.amazonaws.com/www.evalinebai.com/media/cb3.png");
+}
+
+.ten {
+  background-image: url("https://s3.us-east-2.amazonaws.com/www.evalinebai.com/media/locastore1.png"); 
+}
+
+.eleven {
+  background-image: url("https://s3.us-east-2.amazonaws.com/www.evalinebai.com/media/locastore2.png");
+}
+
+.twelve {
+  background-image: url("https://s3.us-east-2.amazonaws.com/www.evalinebai.com/media/locastore3.png");
+}
+
+.description {
+  
+  h4 {
+    color: @pine;
+  }
+}

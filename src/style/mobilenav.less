@@ -1,0 +1,31 @@
+@linen: #F8EAE5;
+@stone: #C0C0C0;
+@charcoal: #231F1B;
+
+.smallnav {
+  padding: 2% 0 1% 0;
+  text-align: center;
+  background-color: @linen;
+
+  li {
+    display: inline;
+    padding: 5%;
+
+    .link {
+      color: @charcoal;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .selected {
+      border-bottom: 2px solid @charcoal;
+      padding-bottom: 1%;
+    }
+  }
+}
+
+@media(min-width: 768px) {
+  .smallnav {
+    display: none;
+  }
+}

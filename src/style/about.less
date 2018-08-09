@@ -1,0 +1,29 @@
+@pine: #5B7065;
+@stone: #C0C0C0;
+
+.about {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10%;
+  overflow-y: scroll;
+  height: 100%;
+  line-height: 150%;
+
+  a {
+    color: @pine;
+  }
+  
+  a:hover {
+    color: @stone;
+  }
+}
+
+@media(min-width: 768px) {
+  .smallContact {
+    display: none;
+  }
+}
+
+.smallContact {
+  margin: 5% 0 5% 0;
+}
