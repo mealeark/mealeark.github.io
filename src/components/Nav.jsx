@@ -9,9 +9,16 @@ const Nav = () => (
       <h1 className={style.header}>
         <span className={style.first}>mealear </span>
         <span className={style.last}>khiev</span>
+        <span>
+          <img src="https://image.ibb.co/b9k4Lp/circular_meal.png" />
+        </span>
       </h1>
       <h4 className={style.subheader}>software engineer</h4>
     </div>
+    <div>
+      <Contact />
+    </div>
+    {/* <hr className={style.bar} /> */}
     <div>
       <ul className={style.list}>
         <li>
@@ -45,10 +52,6 @@ const Nav = () => (
           </NavLink>
         </li>
       </ul>
-    </div>
-    <hr className={style.bar} />
-    <div>
-      <Contact />
     </div>
   </div>
 );
