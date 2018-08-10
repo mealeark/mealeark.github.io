@@ -1,10 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import style from '../style/smallnav.less';
+import style from '../style/mobilenav.less';
 
 const MobileNav = () => (
   <div>
-    <ul className={style.smallnav}>
+    <ul className={style.mobilenav}>
       <li>
         <NavLink
           exact={true}
@@ -33,16 +33,6 @@ const MobileNav = () => (
           activeClassName={style.selected}
         >
           APPS
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
-          exact={true}
-          to="/painting"
-          className={style.link}
-          activeClassName={style.selected}
-        >
-          ART
         </NavLink>
       </li>
     </ul>
