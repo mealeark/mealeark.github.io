@@ -15,9 +15,6 @@ const About = () => (
         I love to build applications that can make an impact on lives. My current tools of choice are React, Node.js, Express, and MySQL. 
         I've been told that one of my core strengths is that I can adapt to new situations and skills as technology changes, so please reach out to me for some product ideas!
       </p>
-      <div>
-        Email me directly if you are interested in obtaining an updated resume.
-      </div>
       <div className={style.smallContact}>
         <Contact/>
       </div>
