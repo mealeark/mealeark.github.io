@@ -6,7 +6,6 @@ import MobileNav from './MobileNav';
 import Landing from './Landing';
 import About from './About';
 import Portfolio from './Portfolio';
-import Painting from './Painting';
 import style from '../style/app.less';
 
 class App extends React.Component {
@@ -39,12 +38,6 @@ class App extends React.Component {
             path="/portfolio"
             render={() => (
               <Portfolio />
-            )}
-          />
-          <Route
-            path="/painting"
-            render={() => (
-              <Painting />
             )}
           />
           <Route
