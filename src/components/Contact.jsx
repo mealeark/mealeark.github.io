@@ -10,19 +10,19 @@ import style from '../style/contact.less';
 const Contact = () => (
   <div>
     <a href="mailto:mealeark@yahoo.com">
-      <FontAwesomeIcon icon={Envelope} size="12px" className={style.icon} />
+      <FontAwesomeIcon icon={Envelope} size="1x" className={style.icon} />
     </a>
     <a href="https://www.linkedin.com/in/mealear-khiev/" target="_blank">
-      <FontAwesomeIcon icon={LinkedIn} size="12px" className={style.icon} />
+      <FontAwesomeIcon icon={LinkedIn} size="1x" className={style.icon} />
     </a>
     <a href="https://github.com/mealeark" target="_blank">
-      <FontAwesomeIcon icon={Github} size="12px" className={style.icon} />
+      <FontAwesomeIcon icon={Github} size="1x" className={style.icon} />
     </a>
     <a href="https://medium.com/@mealearkhiev" target="_blank">
-      <FontAwesomeIcon icon={Medium} size="12px" className={style.icon} />
+      <FontAwesomeIcon icon={Medium} size="1x" className={style.icon} />
     </a>
     <a href="https://www.facebook.com/mealear.khiev" target="_blank">
-      <FontAwesomeIcon icon={Facebook} size="12px" className={style.icon} />
+      <FontAwesomeIcon icon={Facebook} size="1x" className={style.icon} />
     </a>
   </div>
 );
