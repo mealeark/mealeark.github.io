@@ -8,16 +8,6 @@ const MobileNav = () => (
       <li>
         <NavLink
           exact={true}
-          to="/"
-          className={style.link}
-          activeClassName={style.selected}
-        >
-          HOME
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
-          exact={true}
           to="/about"
           className={style.link}
           activeClassName={style.selected}

@@ -3,7 +3,6 @@ import { withRouter } from 'react-router';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Nav from './Nav';
 import MobileNav from './MobileNav';
-import Landing from './Landing';
 import About from './About';
 import Portfolio from './Portfolio';
 import style from '../style/app.less';
@@ -25,7 +24,7 @@ class App extends React.Component {
             exact
             path="/"
             render={() => (
-              <Landing />
+              <About />
             )}
           />
           <Route
