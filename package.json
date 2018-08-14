@@ -33,10 +33,12 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.7",
+    "@fortawesome/fontawesome-free": "^5.2.0",
     "@fortawesome/fontawesome-free-brands": "^5.0.12",
     "@fortawesome/fontawesome-free-regular": "^5.0.12",
     "@fortawesome/react-fontawesome": "0.0.19",
     "gulp": "^3.9.1",
+    "html5": "^1.0.5",
     "html5shiv": "^3.7.3",
     "jquery": "^3.3.1",
     "react": "^16.3.2",
