@@ -2709,9 +2709,9 @@
 		.main.style2 {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
-			background-attachment: fixed,							fixed;
-			background-image: url("images/coit.png"), url("../../images/coit.jpg");
-			background-size: auto,							cover;
+			background-attachment: fixed, fixed;
+			background-image: url("https://tinyurl.com/ybtmarau"), url("https://tinyurl.com/ybtmarau");
+			background-size: auto, cover;
 		}
 
 			.main.style2 a {
