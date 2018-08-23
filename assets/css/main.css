@@ -2711,7 +2711,9 @@
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed, fixed;
-			background-image: url("https://2486634c787a971a3554-d983ce57e4c84901daded0f67d5a004f.ssl.cf1.rackcdn.com/the-orchard-hotel/media/Fort%20Point%20National%20Historic%20Site%20&%20Golden%20Gate%20Bridge%20at%20Night-5a258509e6195.jpg"), url("https://tinyurl.com/ydb5bowb");
+			background-image: 
+			  url("https://tinyurl.com/yd8ncwpq"), 
+			  url("https://tinyurl.com/yd8ncwpq");
 			background-size: auto, cover;
 		}
 
