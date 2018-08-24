@@ -3420,4 +3420,11 @@
 				padding: 2em 1em 2em 1em ;
 			}
 
-	}
+  }
+  
+/* Scroll to Top */
+
+window.scrollTo({
+  top: 1000,
+  behavior: "smooth"
+});
